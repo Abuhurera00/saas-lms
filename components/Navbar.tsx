@@ -16,7 +16,7 @@ const Navbar = () => {
                     />
                 </div>
             </Link>
-            <div className="flex items-center gap-8">
+            <div className="flex max-md:flex-row-reverse items-center gap-8">
                 <NavItems />
                 <SignedOut>
                     <SignInButton>
